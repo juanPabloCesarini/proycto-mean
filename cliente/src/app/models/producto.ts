@@ -1,5 +1,5 @@
 export class Producto {
-  _id?: number;
+  _id?: number; // el ? significa que el dato es opcional, el guion bajo es para igualar con MONGODB
   nombre: string;
   categoria: string;
   ubicacion: string;

@@ -1,0 +1,20 @@
+FRONTEND
+
+para crear el proyecto: ng new nombre_proyecto
+
+ejecutar proyecto: ng serve --o
+
+para instalar bootstrap: npm install bootstrap@next (verificar con documentación)
+    - en el archivo angular.json agregar a los estilos la siguiente línea:
+    "styles": [
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"  <-- (en el proyecto)
+            ],
+
+para crear componentes: ng g c carpeta/nombre_componente
+
+para crear servicios: ng g s carpeta/nombre_servicio
+
+
+
+
