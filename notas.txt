@@ -15,6 +15,7 @@ para crear componentes: ng g c carpeta/nombre_componente
 
 para crear servicios: ng g s carpeta/nombre_servicio
 
-
+para intalar libreria de alertas:
+npm install ngx-toastr --save
 
 
