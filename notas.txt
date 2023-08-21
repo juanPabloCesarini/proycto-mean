@@ -18,4 +18,13 @@ para crear servicios: ng g s carpeta/nombre_servicio
 para intalar libreria de alertas:
 npm install ngx-toastr --save
 
+BACKEND
+en la ruta del proyecto:
+npm init 
+  completar con nombre del paquete, descripción, y autor
+npm install -D nodemon (entorno de desarrollo)
+npm install express mongoose dotenv
+
+en el package.json en script: "dev":"nodemon ."
+
 
